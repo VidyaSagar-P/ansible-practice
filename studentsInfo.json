@@ -1,0 +1,30 @@
+{
+    "students":[
+        {
+            "SNO":1,
+            "name":"vidya",
+            "email":"vidya@gmail.com",
+            "addresses":[
+                {
+                    "cadd":"hyd"
+                },
+                {
+                    "padd":"gdk"
+                }
+            ]
+        },
+        {
+            "SNO":1,
+            "name":"vidya",
+            "email":"vidya@gmail.com",
+            "addresses":[
+                {
+                    "cadd":"hyd"
+                },
+                {
+                    "padd":"kmm"
+                }
+            ]
+        }
+    ]
+}

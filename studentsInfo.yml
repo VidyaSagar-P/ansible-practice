@@ -1,0 +1,14 @@
+students:
+- id: 1
+  name: vidya
+  email: vidya@gmail.com
+  addresses:
+  - currentAdd: hyd
+    permanentAdd: kmm
+
+- id: 2
+  name: sagar
+  email: sagar@gmail.com
+  addresses:
+  - currentAdd: hyd
+    permanentAdd: gdk

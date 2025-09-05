@@ -1,0 +1,28 @@
+<students>
+    <student>
+        <sno>1</sno>
+        <name>vidya</name>
+        <email>vidya@gmail.com</email>
+        <addresses>
+            <currentAddress>
+                <place>Hyderabad</place>
+            </currentAddress>
+            <permanentAddress>
+               <place>Godavarikhani</place> 
+            </permanentAddress>
+        </addresses>
+    </student>
+    <student>
+        <sno>2</sno>
+        <name>sagar</name>
+        <email>sagar@gmail.com</email>
+       <addresses>
+            <currentAddress>
+                <place>Hyderabad</place>
+            </currentAddress>
+            <permanentAddress>
+               <place>Khammam</place> 
+            </permanentAddress>
+        </addresses> 
+    </student>
+</students>
