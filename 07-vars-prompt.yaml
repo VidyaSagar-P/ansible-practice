@@ -1,11 +1,11 @@
 - name: Print the variable with promt
   hosts: web
-  vars_promt:
+  vars_prompt:
   - name: "COURSE"
-    promt: PLAESE ENTER THE COURSE name
+    prompt: PLAESE ENTER THE COURSE name
     private: false
   - name: DURATION
-    promt: please enter the hours
+    prompt: please enter the hours
     private: false
   - name: TRAINER
     private: false
