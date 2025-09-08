@@ -1,10 +1,15 @@
 - name: print the varibales
   hosts: web
-  vars:
+  vars: #play level
     COURSE: AWS DevOps
     DURATION: 120hrs
     TRAINER: Siva Kumar
   tasks: 
   - name: varibales
+    ansible.builtin.debug:
+      msg: "Hi, I am learning {{COURSE}}, Duration:{{DURATION}}, Trainer: {{TRAINER}}"
+
+  - name: task level varibales
+    COURSE: "Ansible"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{COURSE}}, Duration:{{DURATION}}, Trainer: {{TRAINER}}"
