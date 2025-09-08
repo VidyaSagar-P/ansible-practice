@@ -10,6 +10,7 @@
       msg: "Hi, I am learning {{COURSE}}, Duration:{{DURATION}}, Trainer: {{TRAINER}}"
 
   - name: task level varibales
-    COURSE: "Ansible"
+    vars: 
+      COURSE: "Ansible"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{COURSE}}, Duration:{{DURATION}}, Trainer: {{TRAINER}}"
