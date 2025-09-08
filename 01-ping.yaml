@@ -1,0 +1,6 @@
+- name: ping the server
+  host: 172.31.27.137
+  tasks:
+  - name: ping module
+    ansible.builtin.ping:
+      msg: "Successfully connected to node server"
