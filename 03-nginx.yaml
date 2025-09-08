@@ -1,0 +1,8 @@
+- name: Install and Run NGINX
+  hosts: web
+  bacome: yes
+  tasks:
+  - name: install NGINX
+    ansible.builtin.package:
+      name: nginx
+      state: present
