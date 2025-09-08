@@ -3,4 +3,4 @@
   tasks:
   - name: ping module
     ansible.builtin.ping:
-      msg: "Successfully connected to node server"
+      
