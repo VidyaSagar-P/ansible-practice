@@ -5,7 +5,7 @@
     prompt: PLAESE ENTER THE COURSE name
     private: false
   - name: DURATION
-    prompt: please enter the hours
+    prompt: please enter the hours #optional line
     private: false
   - name: TRAINER
     private: false
