@@ -7,5 +7,5 @@
 
   - name: print the user
     ansible.builtin.debug:
-      msg: "{{USER}}"
+      msg: "user: {{USER}}"
       
