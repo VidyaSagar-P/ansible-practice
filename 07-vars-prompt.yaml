@@ -8,6 +8,7 @@
     prompt: please enter the hours #optional line
     private: false
   - name: TRAINER
+    prompt: please enter the trainer name
     private: false
   tasks:
   - name: print the course info
