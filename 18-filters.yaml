@@ -5,3 +5,10 @@
     - name: print the default variable
       ansible.builtin.debug:
         msg: "Hello {{NAME | default('VIDYA')}}"
+    
+    - name: print upper case
+      vars:
+        wish: "Hello vidya"
+      ansible.builtin.debug:
+        msg: "{{wish | upper}}"
+      
