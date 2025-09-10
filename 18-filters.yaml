@@ -11,4 +11,10 @@
         wish: "Hello vidya"
       ansible.builtin.debug:
         msg: "{{wish | upper}}"
+
+    - name: print upper case
+      vars:
+        wish: "Hello vidya"
+      ansible.builtin.debug:
+        msg: "{{wish | lower}}"
       
