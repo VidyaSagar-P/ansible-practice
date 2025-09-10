@@ -3,4 +3,14 @@
   connection: local
   tasks:
     - name: execute the command
+      # command module just issues the command
+      # shell module will login ans execute the command inside server
       ansible.builtin.shell: ls -ltr > /tmp/output.txt
+
+    - name: check the process
+      ansible.builtin.shell: ps -ef | grep ssh
+      register: output
+
+    - name: check the process
+      ansible.builtin.command: ps -ef | grep ssh
+      register: output
